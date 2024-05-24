@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+}
+
+body{
+    background-color: #DBEDE2;
+}
+
+main{
+    background-color: #77C4D3;
+    margin:10vh 10vh;
+    height:200vh;
+    padding:5vh; 
+    position:relative;
+}
+
+h1{
+    background-color: #EA2F49;
+    color:white;
+    display:inline-block;
+    font-size: 30px;
+    font-weight : normal;
+    margin-bottom: 30px;
+    padding:20px;
+}
+
+h2{
+    color:white;
+    /* background-color: lightcoral; */
+    max-width: 41vw;
+    font-size: 107px;
+    display:inline-block;
+    margin-bottom: 80px;
+}
+
+span{
+    border-bottom:10px dotted white;
+}
+
+
+section > article:first-of-type > p:first-of-type {
+    border-bottom: 1px solid rgb(193, 2, 2);
+    padding-bottom:20px;
+    /* background-color: red; */
+
+}
+
+section>article:first-of-type p{
+    color:white;
+    /* background-color: red; */
+    max-width: 50vw;
+    font-size: 22px;
+    padding-top:30px;
+    
+}
+
+aside{
+    background-color: #f9f698e7;
+    display: inline-block;
+    width:23vw;
+    height:110vh;
+    position: absolute;
+    right:0;
+    top:5%;
+    /* padding: 0px 60px; */
+    z-index: 2;
+    padding:0 60px 30px 60px;
+}
+
+aside>h3{
+    /* background-color: blue; */
+    font-weight : normal;
+    font-size: 34px;
+    margin:50px 0 20px 0;
+
+
+}
+
+aside>ul{
+    /* background-color: red; */
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+aside>ul>li{
+    margin-bottom: 8%;
+    
+}
+
+section>article a{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    /* text-decoration: underline; */
+    /* text-decoration-color: grey; */
+    border-bottom: 1px solid grey;
+}
+a:hover{
+    border-bottom: 1px solid red;
+
+}
+
+
+div{
+    height: 100%;
+    width: 33%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+section>article:nth-child(4){
+    background-color: white;
+    position: relative;
+    /* color: red; */
+    /* height: 37vh; */
+    width: 50vw;
+    left: -10vw;
+    
+    top:10vh;
+    padding: 5% 2% 5% 10vw;
+}
+
+section>article:nth-child(4)>h3{
+    font-weight : normal;
+    /* padding-top:7%; */
+    font-size:35px;
+}
+
+section>article:nth-child(4)>p{
+    /* background-color: blue; */
+    margin-top:3%;
+    font-size:20px;
+    color:#000000a8;
+}
